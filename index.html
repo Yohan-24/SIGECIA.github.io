@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>SIGECIA - Sistema Contable Inteligente</title>
+
+  <!-- Fuente moderna -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  
+  <!-- Archivo CSS -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Anuncio emergente -->
+  <div class="announcement" id="announcement">
+    <span>¡Bienvenido a SIGECIA! Descubre nuestro sistema contable inteligente para microempresarios.</span>
+    <button onclick="closeAnnouncement()">×</button>
+  </div>
+
+  <nav>
+    <a href="#quienes-somos">¿Quiénes Somos?</a>
+    <a href="#mision">Misión</a>
+    <a href="#vision">Visión</a>
+  </nav>
+
+  <header>
+    <h1>SIGECIA</h1>
+    <p>Tu sistema contable inteligente y automatizado</p>
+    <a href="#quienes-somos" class="cta-btn">Conócenos</a>
+  </header>
+
+  <!-- Banner estilo slide -->
+  <div class="slider-container" id="banner">
+    <div class="slider-track" id="sliderTrack">
+      <img src="cap01.png" alt="Banner 1" />
+      <img src="cap02.png" alt="Banner 2" />
+      <img src="cap03.png" alt="Banner 3" />
+      <img src="cap04.png" alt="Banner 4" />
+      <img src="cap05.png" alt="Banner 5" />
+      <img src="cap07.png" alt="Banner 6" />
+      <img src="cap08.png" alt="Banner 7" />
+      <img src="cap09.png" alt="Banner 8" />
+      <img src="cap10.png" alt="Banner 9" />
+    </div>
+
+    <div class="slider-controls">
+      <button id="prevBtn">&#10094;</button>
+      <button id="nextBtn">&#10095;</button>
+    </div>
+
+    <div class="slider-dots" id="sliderDots"></div>
+  </div>
+
+  <section class="section" id="quienes-somos">
+    <h2>¿Quiénes Somos?</h2>
+    <p>En SIGECIA creemos en el poder del emprendimiento colombiano. Somos un sistema de gestión contable inteligente y automatizado, creado para apoyar a microempresarios y microempresarias que día a día sacan adelante sus negocios con esfuerzo, dedicación y sueños grandes. Nuestra plataforma combina tecnología, automatización y asesoría personalizada para que llevar la contabilidad sea tan fácil como usar el celular. Somos el aliado contable de quienes no tienen formación financiera, pero sí la determinación de crecer, formalizarse y prosperar.</p>
+  </section>
+
+  <section class="section" id="mision">
+    <h2>Misión</h2>
+    <p>Empoderar a los microempresarios colombianos a través de soluciones contables tecnológicas, claras y accesibles, que simplifican la gestión financiera, fomentan la toma de decisiones acertadas y contribuyen al crecimiento sostenible de sus negocios.</p>
+  </section>
+
+  <section class="section" id="vision">
+    <h2>Visión</h2>
+    <p>Ser la aplicación contable más confiable, utilizada y transformadora para los microempresarios de Colombia. Soñamos con estar en cada rincón del país, apoyando a emprendedores desde sus celulares, ayudándolos a formalizarse, tomar el control de sus finanzas y construir un futuro económico más seguro y próspero para ellos y para Colombia.</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 SIGECIA - Todos los derechos reservados</p>
+  </footer>
+
+  <!-- Archivo JS -->
+  <script src="scripts.js"></script>
+</body>
+</html>
